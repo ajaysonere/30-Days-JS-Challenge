@@ -12,3 +12,73 @@ body{
     background: #011E3A ;
 }
 
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.container h1 span{
+    font-size: 2.8rem;
+    color: #008552;
+    border-bottom: 4px solid #008552;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+#content{
+    width: 90%;
+    background: #fff;
+    color: #333;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10px;
+    border-radius: 5px;
+}
+
+#content img {
+    width: 30px;
+    cursor: pointer;
+}
+
+#content input {
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+}
+
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #008552;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+#copied {
+    color: #fff;
+    display: none;
+}
+
+
+
