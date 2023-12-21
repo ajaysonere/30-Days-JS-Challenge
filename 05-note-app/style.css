@@ -1,8 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     border: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #cf9acf , #95c0ff);
+    color: #fff;
+    padding: 5rem 0 0 8rem;
 }
 
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.container h1 img {
+    width: 5rem;
+}
+
+.container button {
+    
+    margin: 30px 0 20px;
+    padding: 1rem 1.8rem;
+    border-radius: 2.5rem;
+    background: linear-gradient(#9418fd , #571094);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.container button img {
+    width: 2rem;
+}
+
+.input-box {
+    position: relative;
+    width: 30rem;
+    min-height: 15rem;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.note-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.note-container p img{
+    width: 2rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
