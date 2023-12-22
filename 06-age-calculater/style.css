@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700;800&display=swap');
 
 *{
     padding: 0;
@@ -8,4 +8,74 @@
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
 }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #4203a9 , #90bafc);
+    color: #fff;
+    padding: 10px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.container h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+span {
+    color: #ffff76;
+}
+
+.input-box {
+    margin: 5rem 0;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    margin-right: 25px;
+    padding:  12px 25px;
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.input-box button {
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ffff76;
+    font-weight: 500;
+    color: #333;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+
 
