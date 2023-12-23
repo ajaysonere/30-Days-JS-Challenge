@@ -1,0 +1,69 @@
+  @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Sevillana&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Overpass" , "sans-serif";
+    background: linear-gradient(135deg , #b5e4edb8 , #217a8e96);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 800px;
+    background: #fff;
+    text-align: center;
+    padding: 2rem 5rem 5rem 5rem;
+    border-radius: 10px;
+
+}
+
+.container h2{
+    margin: 2rem 0;
+    /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Sevillana', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.quote{
+    font-size: 2rem;
+    font-family: "Overpass" , "sans-serif";
+    font-weight: 200;
+}
+
+.author-name {
+    text-align: right !important;
+    margin-top: 2rem;
+}
+
+.btns button {
+    margin-top: 4rem;
+    padding: 1.2rem 3.5rem;
+    background: transparent;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.gen-new-quote {
+    color: #fff;
+    background: #333 !important;
+    margin-right: 1rem;
+}
+
+.gen-new-quote:hover{
+    background: transparent !important;
+    color: #333;
+}
