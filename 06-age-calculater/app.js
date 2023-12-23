@@ -36,8 +36,6 @@ function calculateAge(){
         y3--;
     }
 
-    console.log("called");
-
     const showAge = document.createElement("p");
     showAge.id = "result";
     showAge.innerHTML = `You are <span> ${y3} </span> years ,<span> ${m3} </span> months and <span> ${d3} </span> days old `;
