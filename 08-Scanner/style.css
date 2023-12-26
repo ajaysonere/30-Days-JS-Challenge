@@ -19,7 +19,7 @@ body{
 .container {
     width: 100%;
     background: #fff;
-    max-width: 600px;
+    max-width: 450px;
     margin: 10rem auto;
     padding: 2rem;
     border-radius: 5px;
@@ -31,7 +31,7 @@ body{
    margin-bottom: 2rem;
 }
 .container input{
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -43,8 +43,9 @@ body{
 
 .container button {
     background: #333;
+    width: 90%;
     color: #fff;
-    padding: 1rem 6rem;
+    padding: 1rem;
     cursor: pointer;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -52,3 +53,9 @@ body{
     margin-top: 2rem;
 }
 
+#img-container{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+}

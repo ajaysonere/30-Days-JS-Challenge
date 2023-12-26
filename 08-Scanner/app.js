@@ -7,8 +7,8 @@ let count = 0;
 function getImage(){
    const img = document.createElement("img");
    img.id="qr";
-   img.src = "https://api.qrserver.com/v1/create-qr-code?size=150*150&data="+inputValue.value;
-   img.style.cssText="margin:2rem 0;"
+   img.src = "https://api.qrserver.com/v1/create-qr-code?size=150x150&data="+inputValue.value;
+   img.style.cssText="width:100% ; padding:1rem; "
    imgContainer.appendChild(img);
    count++;
 }
