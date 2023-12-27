@@ -13,16 +13,30 @@
         <div class="logo">
             <h2>Logo</h2>
         </div>
-        <ul class="nav__links">
+        <ul class="nav__links nav-animations">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">Product</a></li>
         </ul>
-        <button class="toggle-btn">
-        <span class="material-symbols-outlined">menu</span>
+        <button class="toggle-btn" onclick="toggleHomeMenu()">
+           <span class="material-symbols-outlined">menu</span>
         </button>
      </nav>
+
+     <script>
+         const navLinks = document.querySelector(".nav__links"); 
+         const toggleBtn  = document.querySelector(".toggle-btn span");
+         function toggleHomeMenu(){
+            navLinks.classList.toggle("show-menu");
+            const menu = toggleBtn.innerHTML;
+            if(menu == "menu"){
+                toggleBtn.innerHTML="close";
+            }else{
+                toggleBtn.innerHTML="menu";
+            }
+         }
+     </script>
 </body>
 </html>
