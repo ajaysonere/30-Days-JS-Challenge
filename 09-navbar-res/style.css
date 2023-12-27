@@ -45,8 +45,13 @@ nav .logo{
     font-weight: 400;
 }
 
+
 .toggle-btn {
     display: none;
+}
+
+.toggle-btn span{
+    font-size: 2rem;
 }
 
 .toggle-btn{
@@ -62,30 +67,24 @@ nav .logo{
 
     .nav__links{
         width: 80%;
+        height: 80%;
         position: absolute;
         left: 10%;
         top: 8rem;
         flex-direction: column;
+        justify-content: center;
         gap: 1rem;
         background: #000;
         padding: 2rem;
         text-align: center;
-        transition: all 1s ease-in-out;
+        display: none;
     }
-    .nav__links li {
-        margin: 1rem;
-    }
-
     .nav__links li a {
         color: #fff;
     }
 
-    .nav__links{
-        display: none;
-    }
-
     .show-menu{
-        display: block;
+        display: inline-flex;
     }
 }
 
